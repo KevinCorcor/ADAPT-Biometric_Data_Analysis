@@ -1,0 +1,109 @@
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\obj\Debug\PS4.Form1.resources
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\obj\Debug\PS4.csproj.GenerateResource.Cache
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\bin\Debug\EntityFramework.dll
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\bin\Debug\GMap.NET.Core.dll
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\bin\Debug\GoogleMaps.LocationServices.dll
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\bin\Debug\MySql.Data.dll
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\bin\Debug\System.Data.SQLite.dll
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\bin\Debug\EntityFramework.xml
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\bin\Debug\System.Data.SQLite.xml
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\obj\Debug\ProjetS4.photo_map.resources
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\bin\Debug\Geocoding.dll
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\obj\Debug\PS4.csprojResolveAssemblyReference.cache
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\bin\Debug\LifeLoggingInterface.exe.config
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\bin\Debug\LifeLoggingInterface.exe
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\bin\Debug\LifeLoggingInterface.pdb
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\obj\Debug\LifeLoggingInterface.Properties.Resources.resources
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\obj\Debug\LifeLoggingInterface.exe
+C:\Users\Carey\Desktop\Stage S4\PS4\PS4\obj\Debug\LifeLoggingInterface.pdb
+F:\PS4\PS4\bin\Debug\LifeLoggingInterface.exe.config
+F:\PS4\PS4\obj\Debug\LifeLoggingInterface.exe
+F:\PS4\PS4\obj\Debug\LifeLoggingInterface.pdb
+F:\PS4\PS4\bin\Debug\LifeLoggingInterface.exe
+F:\PS4\PS4\bin\Debug\LifeLoggingInterface.pdb
+F:\PS4\PS4\bin\Debug\EntityFramework.dll
+F:\PS4\PS4\bin\Debug\EntityFramework.SqlServer.dll
+F:\PS4\PS4\bin\Debug\Geocoding.dll
+F:\PS4\PS4\bin\Debug\GMap.NET.Core.dll
+F:\PS4\PS4\bin\Debug\GMap.NET.WindowsForms.dll
+F:\PS4\PS4\bin\Debug\GMap.NET.WindowsPresentation.dll
+F:\PS4\PS4\bin\Debug\GoogleMaps.LocationServices.dll
+F:\PS4\PS4\bin\Debug\MySql.Data.dll
+F:\PS4\PS4\bin\Debug\Newtonsoft.Json.dll
+F:\PS4\PS4\bin\Debug\System.Data.SQLite.dll
+F:\PS4\PS4\bin\Debug\System.Data.SQLite.EF6.dll
+F:\PS4\PS4\bin\Debug\System.Data.SQLite.Linq.dll
+F:\PS4\PS4\bin\Debug\EntityFramework.xml
+F:\PS4\PS4\bin\Debug\EntityFramework.SqlServer.xml
+F:\PS4\PS4\bin\Debug\Newtonsoft.Json.xml
+F:\PS4\PS4\bin\Debug\System.Data.SQLite.xml
+F:\PS4\PS4\bin\Debug\System.Data.SQLite.dll.config
+F:\PS4\PS4\obj\Debug\PS4.csprojResolveAssemblyReference.cache
+F:\PS4\PS4\obj\Debug\PS4.Form1.resources
+F:\PS4\PS4\obj\Debug\ProjetS4.photo_map.resources
+F:\PS4\PS4\obj\Debug\LifeLoggingInterface.Properties.Resources.resources
+F:\PS4\PS4\obj\Debug\PS4.csproj.GenerateResource.Cache
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\LifeLoggingInterface.exe.config
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\LifeLoggingInterface.exe
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\LifeLoggingInterface.pdb
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\EntityFramework.dll
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\Geocoding.dll
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\GMap.NET.Core.dll
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\GoogleMaps.LocationServices.dll
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\MySql.Data.dll
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\System.Data.SQLite.dll
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\EntityFramework.xml
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\System.Data.SQLite.xml
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\obj\Debug\PS4.csprojResolveAssemblyReference.cache
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\obj\Debug\PS4.Form1.resources
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\obj\Debug\ProjetS4.photo_map.resources
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\obj\Debug\LifeLoggingInterface.Properties.Resources.resources
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\obj\Debug\PS4.csproj.GenerateResource.Cache
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\obj\Debug\LifeLoggingInterface.exe
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\obj\Debug\LifeLoggingInterface.pdb
+C:\Users\kevin\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\LifeLoggingInterface.xml
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\obj\Debug\PS4.csprojResolveAssemblyReference.cache
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\obj\Debug\PS4.Form1.resources
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\obj\Debug\ProjetS4.photo_map.resources
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\obj\Debug\LifeLoggingInterface.Properties.Resources.resources
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\obj\Debug\PS4.csproj.GenerateResource.Cache
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\obj\Debug\LifeLoggingInterface.exe
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\obj\Debug\LifeLoggingInterface.pdb
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\LifeLoggingInterface.exe.config
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\LifeLoggingInterface.xml
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\LifeLoggingInterface.exe
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\LifeLoggingInterface.pdb
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\EntityFramework.dll
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\Geocoding.dll
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\GMap.NET.Core.dll
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\GoogleMaps.LocationServices.dll
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\MySql.Data.dll
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\System.Data.SQLite.dll
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\EntityFramework.xml
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\System.Data.SQLite.xml
+C:\Users\ADAPT Centre\Documents\ADAPT\Alexandre\PS4\PS4\bin\Debug\System.Data.SQLite.dll.config

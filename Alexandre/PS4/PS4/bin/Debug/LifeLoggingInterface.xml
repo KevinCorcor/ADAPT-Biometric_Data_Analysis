@@ -1,0 +1,407 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LifeLoggingInterface</name>
+    </assembly>
+    <members>
+        <member name="T:ProjetS4.DBconnect">
+            <summary>
+                information connection and retrieval
+            </summary>
+        </member>
+        <member name="M:ProjetS4.DBconnect.#ctor">
+            <summary>
+                 default contructor which does nothing
+            </summary>
+        </member>
+        <member name="M:ProjetS4.DBconnect.OpenConnection">
+            <summary>
+                Open connection to database
+            </summary>
+        </member>
+        <member name="M:ProjetS4.DBconnect.CloseConnection">
+            <summary>
+                 Close connection
+                 @return boolean
+             </summary>
+        </member>
+        <member name="M:ProjetS4.DBconnect.getPoints">
+            <summary>
+                 Return a list of all the points with id, longitude and latitude
+                 @return listCoord - double array
+             </summary>
+        </member>
+        <member name="M:ProjetS4.DBconnect.countKeyS">
+            <summary>
+                  @Return res - int - the number of key strokes
+             </summary>
+        </member>
+        <member name="M:ProjetS4.DBconnect.getGall">
+            <summary>
+                Return a List with all pictures path
+                @return path - String rray
+            </summary>
+        </member>
+        <member name="M:ProjetS4.DBconnect.picByDate(System.String)">
+            <summary>
+                 Returns the Date of a given picture path
+                 @param path String
+                 @return date DateTime
+             </summary>
+        </member>
+        <member name="M:ProjetS4.DBconnect.getDate(System.Int32)">
+            <summary>
+                 @param id - int - picture id
+                 @Return - date - the Datetime of a given picture id
+            </summary>
+        </member>
+        <member name="M:ProjetS4.DBconnect.getIdPic(System.String)">
+            <summary>
+                 Return ID with a given picture path
+                 @param path - string
+                 @return r int
+             </summary>
+        </member>
+        <member name="M:ProjetS4.DBconnect.getPth(System.Int32,System.Int32)">
+            <summary>
+                 Return the picture path with the given id and the option to navigate
+                 @param id int   
+                 @param option int
+            </summary>
+        </member>
+        <member name="M:ProjetS4.DBconnect.getNbPic">
+            <summary>
+                 Return the number of Pictures in the DataBase
+                 @return res int
+            </summary>
+        </member>
+        <member name="M:ProjetS4.DBconnect.insertPlace(System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+                 Update the country of a selected gps data (given by the id)
+                 @param string street
+                 @param string city
+                 @param string cp
+                 @param string country
+                 @param int id
+             </summary>
+        </member>
+        <member name="M:ProjetS4.DBconnect.selectCountry(System.Int32)">
+            <summary>
+                 Return the country information from a given Gps coordinare (defined by the id)
+                 @param - id int
+                 @return - res String
+            </summary>
+        </member>
+        <member name="M:ProjetS4.DBconnect.getCountry">
+            <summary>
+                 Return a countries list
+                 @return res - String array of countries
+            </summary>
+        </member>
+        <member name="M:ProjetS4.DBconnect.getPDate">
+            <summary>Return points date list</summary>
+        </member>
+        <member name="M:ProjetS4.DBconnect.getPDate(System.String)">
+            <summary>
+                 Return the date for the given point (with id)
+                 id - String
+            </summary>
+        </member>
+        <member name="M:ProjetS4.DBconnect.getPath(System.Int64)">
+            <summary>
+                 Return the picture path taken between the given date and the given date -30 seconds. 
+                 @param date - long
+                 @return res - String
+            </summary>
+        </member>
+        <member name="M:ProjetS4.DBconnect.getPointsByDate(System.Double)">
+            <summary>
+                 Return a list a points (id, longitude and latitude) for a given date
+                  @param date - double
+                  @return res
+            </summary> 
+        </member>
+        <member name="M:ProjetS4.DBconnect.getPic(System.Double)">
+            <summary>
+                Return a list of picture's path for a given date
+                @param date - double
+                @Return path - String Array of photo paths
+            </summary>
+        </member>
+        <member name="T:ProjetS4.photo_map">
+            <summary>
+                form2 photomap class 
+            </summary>
+        </member>
+        <member name="M:ProjetS4.photo_map.#ctor">
+            <summary>
+                 Constructor calls initializeComponent();
+             </summary>
+        </member>
+        <member name="M:ProjetS4.photo_map.#ctor(System.String,System.DateTime)">
+            <summary>
+                 Case of a marker click contructor with
+             </summary>
+        </member>
+        <member name="M:ProjetS4.photo_map.#ctor(System.Windows.Forms.PictureBox,System.Int32,System.DateTime,System.String)">
+            <summary>
+                 Case of a picture click
+            </summary>
+        </member>
+        <member name="M:ProjetS4.photo_map.photo_map_Load(System.Object,System.EventArgs)">
+            <summary>
+                load
+            </summary>
+            <param name="sender">object</param>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="M:ProjetS4.photo_map.generateBtn">
+            <summary>
+                Generate the facebook button 
+            </summary>
+        </member>
+        <member name="M:ProjetS4.photo_map.btn_left_Click(System.Object,System.EventArgs)">
+            <summary>
+                Navigate between the picture (display the previous picture of the database)
+            </summary>
+            <param name="sender">object</param>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="M:ProjetS4.photo_map.btn_right_Click(System.Object,System.EventArgs)">
+            <summary>
+                Navigate between the picture (display the next picture of the database)
+            </summary>
+            <param name="sender">object</param>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="M:ProjetS4.photo_map.fbShare(System.Object,System.EventArgs)">
+            <summary>
+                Facebook share button needs to be implemented
+            </summary>
+            <param name="sender">object</param>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="M:ProjetS4.photo_map.btn_twit_Click(System.Object,System.EventArgs)">
+            <summary>
+                Twitter share button needs to be implemented
+            </summary>
+            <param name="sender">object</param>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="M:ProjetS4.photo_map.photo_map_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+                Close the database connection when closing the form
+            </summary>
+            <param name="sender">object</param>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="F:ProjetS4.photo_map.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ProjetS4.photo_map.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ProjetS4.photo_map.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:PS4.Form1.type">
+            <summary>
+                Parameter to change the map type
+            </summary>
+        </member>
+        <member name="F:PS4.Form1.db">
+            <summary>
+                DataBase object
+            </summary>
+        </member>
+        <member name="F:PS4.Form1.fpath">
+            <summary>
+                Files Path
+            </summary>
+        </member>
+        <member name="F:PS4.Form1.markers">
+            <summary>
+            Markers managers 
+            </summary>
+        </member>
+        <member name="F:PS4.Form1.pbGall">
+            <summary>
+                Pictures managers
+            </summary>
+        </member>
+        <member name="M:PS4.Form1.#ctor">
+            <summary>
+                default contructor call InitializeComponent();
+            </summary>
+        </member>
+        <member name="M:PS4.Form1.Form1_Load(System.Object,System.EventArgs)">
+            <summary>
+            Starts a the form launching
+            </summary>
+            <param name="sender">object</param>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="M:PS4.Form1.placePoints">
+            <summary>
+            Place GPS coordinates points on the map
+            </summary>
+        </member>
+        <member name="M:PS4.Form1.gmap_OnMarkerClick(GMap.NET.WindowsForms.GMapMarker,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Handle the event of clicking on a map marker
+            </summary>
+            <param name="marker">GMapMarker</param>
+            <param name="e"> MouseEventArgs</param>
+        </member>
+        <member name="M:PS4.Form1.initLoc">
+            <summary>
+            Initialize the current position of the map
+            </summary>
+        </member>
+        <member name="M:PS4.Form1.initPlaces">
+            <summary>
+            Initialize known places on the map
+            </summary>
+        </member>
+        <member name="M:PS4.Form1.connectDB">
+            <summary>
+            Connection to DataBase
+            </summary>
+        </member>
+        <member name="M:PS4.Form1.Form1_FormClosed(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+            <summary>
+            Close connection of the DataBase when the windows is closed
+            </summary>
+            <param name="sender">obnject</param>
+            <param name="e">FormClosedEventArgs</param>
+        </member>
+        <member name="M:PS4.Form1.gmap_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            Allow to zoom by clicking a key
+            </summary>
+            <param name="sender">onject</param>
+            <param name="e">KeyEventArgs</param>
+        </member>
+        <member name="M:PS4.Form1.askFilesPath">
+            <summary>
+            Ask where the files are located kcor - select lifelog directory
+            </summary>
+        </member>
+        <member name="M:PS4.Form1.initPicCountry">
+            <summary>
+            Initilize Combo box with Countries
+            </summary>
+        </member>
+        <member name="M:PS4.Form1.initGal">
+            <summary>
+            Draw pictures by date and initialize the search combobox with all the pictures dates
+            </summary>
+        </member>
+        <member name="M:PS4.Form1.gmap_MouseClick(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Handle a click on the map and show information about the GPS coordinates
+            </summary>
+            <param name="sender">object</param>
+            <param name="e">MouseEventArgs</param>
+        </member>
+        <member name="M:PS4.Form1.putPath">
+            <summary>
+            Display the files path
+            </summary>
+        </member>
+        <member name="M:PS4.Form1.tp_gallery_Click(System.Object,System.EventArgs)">
+            <summary>
+            Need to modify it in order to actualize the gallery if the files path changed
+            </summary>
+            <param name="sender">object</param>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="M:PS4.Form1.btn_path_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handle the click on the files path change button
+            </summary>
+            <param name="sender">object</param>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="M:PS4.Form1.btn_search_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handle the action of searching places on the map
+            </summary>
+            <param name="sender">object</param>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="M:PS4.Form1.btn_type_Click_1(System.Object,System.EventArgs)">
+            <summary>
+            Handle the button that allows to change the map style
+            </summary>
+            <param name="sender">object</param>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="M:PS4.Form1.initPointsDate">
+            <summary>
+            Initialize the search combobox with all the points dates
+            kcor - gps coord creation date
+            </summary>
+        </member>
+        <member name="M:PS4.Form1.btn_date_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handle a click on the marker search button
+            </summary>
+            <param name="sender">object</param>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="M:PS4.Form1.btn_searchGal_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handle a click on the search button of the gallery
+            </summary>
+            <param name="sender">object</param>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="F:PS4.Form1.components">
+            <summary>
+            Variable nécessaire au concepteur.
+            </summary>
+        </member>
+        <member name="M:PS4.Form1.Dispose(System.Boolean)">
+            <summary>
+            Nettoyage des ressources utilisées.
+            </summary>
+            <param name="disposing">true si les ressources managées doivent être supprimées ; sinon, false.</param>
+        </member>
+        <member name="M:PS4.Form1.InitializeComponent">
+            <summary>
+            Method required to support the designer - do not modify the contents of this method with the code editor
+            kcor - seems top design the layout of the main window
+            </summary>
+        </member>
+        <member name="M:PS4.Program.Main">
+            <summary>
+            Main entry point of the application
+            </summary>
+        </member>
+        <member name="T:LifeLoggingInterface.Properties.Resources">
+            <summary>
+              Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+            </summary>
+        </member>
+        <member name="P:LifeLoggingInterface.Properties.Resources.ResourceManager">
+            <summary>
+              Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+            </summary>
+        </member>
+        <member name="P:LifeLoggingInterface.Properties.Resources.Culture">
+            <summary>
+              Remplace la propriété CurrentUICulture du thread actuel pour toutes
+              les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+            </summary>
+        </member>
+    </members>
+</doc>
