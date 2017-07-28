@@ -26,4 +26,4 @@ The developed program uses the following steps:
 
 ## Notes ##
 * In order to run a new trial the folders containing the lifelog items must be archived to an alternative location or deleted. Otherwise data from previous trials will merge with that of newer trials and produce incorrect statistical results results.
-* In order for Alex’s application to present the lifelog photos you must specify the name of the “app” file you want to read in from located in the folder “appInput”.
+* In order for Alex’s application to present the lifelog photos you must specify the name of the “app” file you want to read in from located in the folder “appInput” in the DBconnect.cs file in the getGall() method.
