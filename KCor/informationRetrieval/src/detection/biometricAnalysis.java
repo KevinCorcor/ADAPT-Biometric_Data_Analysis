@@ -15,7 +15,7 @@ import FileInteraction.ReadFile;
 import FileInteraction.WriteFile;
 
 /**
- *	This class runs analysis methods on 
+ *	This class contains the main method 
  *
  *
  * @author kevin Corcoran
@@ -43,8 +43,6 @@ public class biometricAnalysis extends Detection
 	public final static String MAX_TEMP_REG = "MAX_TEMP_REG";
 	public final static String MIN_TEMP_REG = "MIN_TEMP_REG";
 	
-	//OTHER
-	
 	public final static String P = System.getProperty("user.home") + File.separator + "Documents/MyLifeLogging/";
 
 	/**
@@ -69,7 +67,7 @@ public class biometricAnalysis extends Detection
 		}
 	}
 	/**
-	 * ensure necessary directories exist
+	 * ensures necessary directories exist
 	 */
 	public static void createFolders()
 	{
