@@ -130,7 +130,7 @@ namespace ProjetS4
             // string query = "SELECT * FROM Photo";// WHERE id BETWEEN 677 AND 900" ;
            
  
-            string text = System.IO.File.ReadAllText("C:\\Users\\ADAPT Centre\\Documents\\testMIN_TEMP_STD.txt");                  //kcor modification
+            string text = System.IO.File.ReadAllText("C:\\Users\\ADAPT Centre\\Documents\\testMIN_TEMP_STD.txt");                  //kcor modification - here we can specify which algorithm file to read in
             
             string query = "SELECT * FROM Photo WHERE "+text;//kcor - specifies how many rows to look at so I could specify specif pics of interest here if i know their info!!
             query = query.Replace("\r\n", " ");
