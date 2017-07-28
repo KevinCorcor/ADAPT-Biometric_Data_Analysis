@@ -22,6 +22,7 @@ The developed program uses the following steps:
 * Implement Normalisation of the biometric data.
 * Explore other forms of biometric data and Lifelog media.
 * Improve the extent of noise reduction in biometric data by recording energy expenditure.
+* To implement the approach of noise detection outlined in the .ppt file in the parent repository  
 
 ## Known Errors ##
 * In order to run a new trial the folders containing the lifelog items must be archived to an alternative location or deleted. Otherwise data from previous trials will merge with that of newer trials and produce incorrect statistical results results.
